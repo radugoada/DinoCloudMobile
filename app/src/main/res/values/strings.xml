@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dinocloud</string>
+    <string name="back_to_login"> Back </string>
+    <string name="login_image_logo">window_logo</string>
+    <string name="register_btn">REGISTER</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+</resources>
