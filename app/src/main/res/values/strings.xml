@@ -1,8 +1,15 @@
 <resources>
     <string name="app_name">Dinocloud</string>
-    <string name="back_to_login"> Back </string>
+    <!-- <string name="back_to_login"> Back </string> -->
     <string name="login_image_logo">window_logo</string>
     <string name="register_btn">REGISTER</string>
     <string name="email_hint">Email</string>
     <string name="password_hint">Password</string>
+    <string name="back_button_login"><![CDATA[<< Back]]></string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="login_btn">Login</string>
+    <string name="register_a_new_account_text">New user? Register here</string>
+    <string name="minimum_password_length">Inserted password must contain a minimum of 6 characters!</string>
+    <string name="auth_failed">Authentification failed, please try again or register a new account!</string>
+    <string name="btn_reset_password">Reset Password</string>
 </resources>
