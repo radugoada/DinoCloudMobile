@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/login_logo_image"
-        android:layout_width="166dp"
-        android:layout_height="163dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="16dp"
         android:contentDescription="@string/login_image_logo"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,8 +35,8 @@
 
     <EditText
         android:id="@+id/email"
-        android:layout_width="325dp"
-        android:layout_height="57dp"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
         android:layout_marginTop="32dp"
         android:autofillHints=""
         android:ems="10"
@@ -51,8 +51,8 @@
 
     <EditText
         android:id="@+id/password"
-        android:layout_width="325dp"
-        android:layout_height="59dp"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/password_hint"

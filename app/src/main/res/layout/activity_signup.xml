@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/login_logo_image"
-        android:layout_width="166dp"
-        android:layout_height="163dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="16dp"
         android:contentDescription="@string/login_image_logo"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,27 +34,9 @@
         tools:visibility="gone" />
 
     <EditText
-        android:id="@+id/email"
-        android:layout_width="325dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="76dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/email_hint"
-        android:inputType="textEmailAddress"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"
-        android:textColorLink="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@id/login_logo_image"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login_logo_image"
-        app:layout_constraintVertical_bias="0.118" />
-
-    <EditText
         android:id="@+id/password"
-        android:layout_width="325dp"
-        android:layout_height="59dp"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/password_hint"
@@ -67,6 +49,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email"
         app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="76dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@id/login_logo_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_logo_image"
+        app:layout_constraintVertical_bias="0.227" />
 
     <Button
         android:id="@+id/btn_login_register"
@@ -83,35 +83,20 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password"
-        app:layout_constraintVertical_bias="0.32" />
-
-    <Button
-        android:id="@+id/btn_register_new_acc"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="345dp"
-        android:layout_height="42dp"
-        android:layout_marginBottom="16dp"
-        android:fontFamily="monospace"
-        android:text="@string/back_button_login"
-        android:textColor="#F19E22"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintVertical_bias="0.24000001" />
 
     <Button
         android:id="@+id/btn_forgot_password"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="345dp"
         android:layout_height="42dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="monospace"
         android:text="@string/forgot_your_password"
         android:textColor="#FFFF"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_register_new_acc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_login_register"
-        app:layout_constraintVertical_bias="10.917" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_login_register" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
